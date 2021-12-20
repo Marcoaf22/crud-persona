@@ -1,2 +1,8 @@
+created:
+    - database/factories/PersonaFactory.php
+    - database/migrations/2021_12_19_225649_create_personas_table.php
+    - app/Models/Persona.php
+    - database/seeders/PersonaSeeder.php
 models:
-    User: {  }
+    User: { name: string, email: string, email_verified_at: 'datetime nullable', password: string, two_factor_secret: 'text nullable', two_factor_recovery_codes: 'text nullable', remember_token: 'string:100 nullable', current_team_id: 'biginteger unsigned nullable', profile_photo_path: 'string:2048 nullable' }
+    Persona: { per_nombre: 'string:150', per_appm: 'string:150 nullable', per_prof: 'string:150', per_telf: 'string 17', per_cel: 'string 17', per_email: 'string 50 unique', per_dir: 'string:150', per_fnac: date, per_lnac: 'string:150', per_estado: 'boolean default:true', per_content: longtext, published_at: 'nullable timestamp', total: 'decimal:8,2' }

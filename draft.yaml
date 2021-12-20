@@ -1,5 +1,18 @@
 models:
   # ...
-
+  Persona:
+    per_nombre: string:150
+    per_appm: string:150 nullable
+    per_prof: string:150
+    per_telf: string 17
+    per_cel: string 17
+    per_email: string 50 unique
+    per_dir: string:150
+    per_fnac: date
+    per_lnac: string:150
+    per_estado: boolean default:true
+    per_content: longtext
 controllers:
   # ...
+
+seeders: Persona

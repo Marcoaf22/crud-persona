@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f83ed65b3dbd7f7618b46adf75a24879",
+    "content-hash": "60ccc625358cda69a37aad911089f60e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1044,6 +1044,66 @@
             "time": "2021-10-06T17:43:30+00:00"
         },
         {
+            "name": "imritesh/livecrud",
+            "version": "v2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/riteshsingh1/livewire-crud.git",
+                "reference": "c6d455425189b38b01af5993eb3eee3231278548"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/riteshsingh1/livewire-crud/zipball/c6d455425189b38b01af5993eb3eee3231278548",
+                "reference": "c6d455425189b38b01af5993eb3eee3231278548",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~7|~8"
+            },
+            "require-dev": {
+                "orchestra/testbench": "~5|~6",
+                "phpunit/phpunit": "~9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Imritesh\\LiveCrud\\LiveCrudServiceProvider"
+                    ],
+                    "aliases": {
+                        "LiveCrud": "Imritesh\\LiveCrud\\Facades\\LiveCrud"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Imritesh\\LiveCrud\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ritesh Singh",
+                    "email": "hello@imritesh.com",
+                    "homepage": "https://imritesh.com"
+                }
+            ],
+            "description": "Generate Basic Crud Operations With Livewire and Tailwind Css For Laravel",
+            "homepage": "https://github.com/riteshsingh1/livewire-crud",
+            "keywords": [
+                "LiveCrud",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/riteshsingh1/livewire-crud/issues",
+                "source": "https://github.com/riteshsingh1/livewire-crud/tree/v2.3.1"
+            },
+            "time": "2021-08-05T15:43:01+00:00"
+        },
+        {
             "name": "jaybizzle/crawler-detect",
             "version": "v1.2.110",
             "source": {
@@ -1730,6 +1790,72 @@
                 "source": "https://github.com/laravel/ui/tree/v3.4.0"
             },
             "time": "2021-11-30T16:22:00+00:00"
+        },
+        {
+            "name": "laraveles/spanish",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Laraveles/spanish.git",
+                "reference": "2224e3db7ec399952523b0769a7677de0b6afd8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Laraveles/spanish/zipball/2224e3db7ec399952523b0769a7677de0b6afd8b",
+                "reference": "2224e3db7ec399952523b0769a7677de0b6afd8b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": ">=5.4.0",
+                "illuminate/support": ">=5.4.0",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^3.4|^4.0",
+                "phpunit/phpunit": "^5.6|^6.3|^7.0|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Laraveles\\Spanish\\SpanishServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laraveles\\Spanish\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Israel Ortuño",
+                    "email": "ai.ortuno@gmail.com"
+                },
+                {
+                    "name": "Cesar Garcia",
+                    "email": "cesargb@gmail.com",
+                    "homepage": "https://github.com/cesargb",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Conjunto de traducciones en español para Laravel",
+            "homepage": "https://github.com/Laraveles/spanish",
+            "keywords": [
+                "laravel",
+                "laraveles",
+                "spanish",
+                "traduccion"
+            ],
+            "support": {
+                "issues": "https://github.com/Laraveles/spanish/issues",
+                "source": "https://github.com/Laraveles/spanish/tree/master"
+            },
+            "time": "2020-06-30T06:01:43+00:00"
         },
         {
             "name": "league/commonmark",
